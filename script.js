@@ -31,7 +31,12 @@ triangle(width/2 + 95, height/2 - 115, width/2 + 40, height/2 - 80, width/2 + 95
   arc(width/2 - 75, height/2 + 30, 25, 55, 0, PI) // L arm
   arc(width/2 + 65, height/2 + 50, 25, 55, 0, PI) // R arm 
   fill("pink")
-  arc(width/2 + 10, height/2 - 95, 85, 75, PI, TWO_PI+HALF_PI)
+  arc(width/2 + 10, height/2 - 95, 85, 75, PI, TWO_PI+HALF_PI)// hair tuff
   noFill()
-  arc(width/2 + 10, height/2 - 70, 65, 65, 0, PI + HALF_PI)
+  arc(width/2 + 10, height/2 - 70, 65, 65, 0, PI + HALF_PI)// hair tuff
+  fill(125)
+  rect(width/2 + 50, height/2 + 55, 55, 20) //microphone
+  rect(width/2 + 95, height/2 + 53, 5, 24) //microphone
+  ellipse(width/2 + 114, height/2 + 65, 29, 29) //microphone
+  line(width/2 + 110, height/2 + 52, width/2 + 110, height/2 + 78) //microphone
 }
